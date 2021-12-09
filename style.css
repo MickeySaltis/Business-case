@@ -1,0 +1,108 @@
+/******** COULEUR FOND */
+
+.primary
+{
+	background-color: #086375;
+}
+.success
+{
+	background-color: #1DD3B0;
+}
+.warning
+{
+	background-color: #AFFC41;
+}
+
+/********  FOND */
+
+.backCat
+{
+	background: url(images/test.jpg) no-repeat, center;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+}
+.back
+{
+	background: url(images/1273-etoiles-WallFizz.jpg) no-repeat, center;
+	background-size: cover;
+}
+/******** Ecriture */
+.btn-outline-success
+{
+	color: #AFFC41 !important;
+}
+.backCat
+{
+	color: #AFFC41;
+}
+.primary
+{
+	color: #AFFC41;
+}
+.warning
+{
+	color: #086375;
+}
+.fin
+{
+	color: #AFFC41;
+}
+.black
+{
+	color: black;
+}
+.gras
+{
+	font-weight: bold;
+}
+/******* Bord */
+.btn-outline-success
+{
+	border-color: #AFFC41 !important;
+}
+ .bord
+ {
+ 	border-radius: 20px;
+ 	padding:5px 0 5px 0 ;
+ }
+ .logo
+ {
+ 	border-radius: 15px;
+ }
+ .spaceX
+ {
+ 	box-shadow: 10px 5px 5px black;
+ }
+.navcolor
+{
+	background-color: #AFFC41 !important;
+}
+.recherche
+{
+	background-color: #1DD3B0 !important;
+}
+.slider
+{
+	border-radius: 20px;
+	background-color: #1DD3B0;
+}
+/******* Menu Déroulant */
+.dropdown-menu
+{
+	background-color: #1DD3B0 !important;
+}
+/******* Menu Déroulant */
+.carousel-control-prev
+{
+	width: 5% !important;
+	color: black !important;
+	opacity: 0.9 !important;
+}
+/******* Slider */
+.carousel-control-next
+{
+	width: 5% !important;
+	color: black;
+	opacity: 0.9 !important;
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet" />
+         <!-- BOOTSTRAP CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <!-- BOOTSTRAP JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <title>la Nîmes'alerie</title>
+    </head>
+    <!---->
+    <body class="back">
+
+        <header>
+            <!-- en-tête -->
+            <div class="backCat d-flex align-items-center">
+                    <!--image-->
+                <div class="container-fluid text-center ">
+                    <img src="images/Logo.png"alt="" width="150" height="150" class="logo" />
+                    <h1>La Nîmes'alerie</h1>
+                        <p>Le spécialiste qui fait monter votre animal au 7ème ciel.</p>
+                </div>
+            </div>
+                <!--nav 1-->
+                <nav class="navbar navbar-expand-lg navbar-light primary">
+                    <div class="container-fluid">
+                    <form class="d-flex me-3">
+                        <input class="form-control recherche " type="search" placeholder="Rechercher" aria-label="Rechercher">
+                         <button class="btn ms-1 btn-outline-success" type="submit">Rechercher</button>
+                    </form>
+                      <button class="navbar-toggler navcolor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav mx-auto  mx-3 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page" href="#"><img src="symbole/space-travel.png" title="exploration spatiale" width="" height=""/> Exploration spatiale</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link active mx-3" href="#"><img src="symbole/demonstration-en-magasin.png" title="Mon magasin" width="" height=""/> Mon magasin</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active mx-3" href="#"><img src="symbole/utilisateur.png" title="Mon compte" width="" height=""/> Mon compte</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active mx-3" href="#"><img src="symbole/panier.png" title="Mon panier" width="" height=""/> Mon panier</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active mx-3" href="#"><img src="symbole/information.png" title="Aides et services" width="" height=""/> Aides et services</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                <!--nav 2-->
+                <nav class="navbar navbar-expand-lg navbar-light success">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="symbole/animaux-acceptes.png" title="animaux" width="" height=""/><p class="gras black">Nos produits</p>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link me-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="symbole/chien.png" title="chien" width="" height=""/> Chiens
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations & friandises</a></li>
+                              <li><a class="dropdown-item" href="#">Soins & hygiènes</a></li>
+                              <li><a class="dropdown-item" href="#">Jouets</a></li>
+                              <li><a class="dropdown-item" href="#">Couchages</a></li>
+                              <li><a class="dropdown-item" href="#">Transport</a></li>
+                              <li><a class="dropdown-item" href="#">Gamelles</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/chat.png" title="chat" width="" height=""/> Chats
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations & friandises</a></li>
+                              <li><a class="dropdown-item" href="#">Soins & hygiènes</a></li>
+                              <li><a class="dropdown-item" href="#">Jouets</a></li>
+                              <li><a class="dropdown-item" href="#">Couchages</a></li>
+                              <li><a class="dropdown-item" href="#">Transport</a></li>
+                              <li><a class="dropdown-item" href="#">Gamelles</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/poisson-clown.png" title="poisson-clown" width="" height=""/> Poissons
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations</a></li>
+                              <li><a class="dropdown-item" href="#">Aquariums et technologie d'aquarium</a></li>
+                              <li><a class="dropdown-item" href="#">Aménagement & accessoires</a></li>
+                              <li><a class="dropdown-item" href="#">Entretient & hygiènes des aquariums</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/hamster.png" title="hamster" width="" height=""/> Rongeurs & co
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations & friandises</a></li>
+                              <li><a class="dropdown-item" href="#">Entretiens & hygiènes</a></li>
+                              <li><a class="dropdown-item" href="#">Jouets</a></li>
+                              <li><a class="dropdown-item" href="#">Maisonettes</a></li>
+                              <li><a class="dropdown-item" href="#">Transport</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/oiseau.png" title="oiseau" width="" height=""/> Oiseaux
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations & friandises</a></li>
+                              <li><a class="dropdown-item" href="#">Entretiens & hygiènes</a></li>
+                              <li><a class="dropdown-item" href="#">Jouets</a></li>
+                              <li><a class="dropdown-item" href="#">Volières</a></li>
+                              <li><a class="dropdown-item" href="#">Transport</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/serpent.png" title="serpent" width="" height=""/> Reptiles
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations</a></li>
+                              <li><a class="dropdown-item" href="#">Equipements & entretien</a></li>
+                              <li><a class="dropdown-item" href="#">Terrariums</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link ms-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/jardin.png" title="jardin" width="" height=""/> Jardin & bassin
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Poules & ferme</a></li>
+                              <li><a class="dropdown-item" href="#">Nourritures pour poissons de bassin</a></li>
+                              <li><a class="dropdown-item" href="#">Entretiens bassins</a></li>
+                              <li><a class="dropdown-item" href="#">Eléments techniques & accessoires pour bassin</a></li>
+                              <li><a class="dropdown-item" href="#">Animaux sauvages</a></li>
+                              <li><a class="dropdown-item" href="#">Oiseaux sauvages</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+                
+        </header>
+
+        <!--Corps-->
+        <main class="container my-4">
+            <section class="container mb-4">
+                <div class=""> <!-- container ou fluid ? -->
+                    <div class="row"> <!-- align 12 colonnes -->
+                        <!--MAGASIN-->
+                        <div class="col-lg-6 col-sm-6 ">
+                            <div class="bord px-3 mb-3 primary">
+                                <h2 class="pt-2">La Nîmes'alerie</h2>
+                                    <p class="pt-1 pb-2">Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.
+                                    </p>
+                            </div>
+                            <!--TEMOIGNAGES-->
+                            <div class="bord px-3 mb-3 success">
+                                <h2 class="pt-2">Témoignage</h2>
+                                <!--SLIDER-->
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <p class="mx-5">Dum haec in oriente aguntur, Arelate hiemem agens Constantius post theatralis ludos atque circenses 
+                                        ambitioso editos apparatu diem sextum idus Octobres, qui imperii eius annum tricensimum terminabat, 
+                                        insolentiae pondera gravius librans, siquid dubium deferebatur aut falsum, pro liquido accipiens et 
+                                        conperto, inter alia excarnificatum Gerontium Magnentianae comitem partis exulari maerore multavit.</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <p class="mx-5">Dum haec in oriente aguntur, Arelate hiemem agens Constantius post theatralis ludos atque circenses 
+                                        ambitioso editos apparatu diem sextum idus Octobres, qui imperii eius annum tricensimum terminabat, 
+                                        insolentiae pondera gravius librans, siquid dubium deferebatur aut falsum, pro liquido accipiens et 
+                                        conperto, inter alia excarnificatum Gerontium Magnentianae comitem partis exulari maerore multavit.</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <p class="mx-5">Dum haec in oriente aguntur, Arelate hiemem agens Constantius post theatralis ludos atque circenses 
+                                        ambitioso editos apparatu diem sextum idus Octobres, qui imperii eius annum tricensimum terminabat, 
+                                        insolentiae pondera gravius librans, siquid dubium deferebatur aut falsum, pro liquido accipiens et 
+                                        conperto, inter alia excarnificatum Gerontium Magnentianae comitem partis exulari maerore multavit.</p>
+                                    </div>
+                                  </div>
+                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                            <!--PRODUITS PHARE-->
+                            <div class="bord ps-3 pb-3 warning">
+                                <h2>Produits phares</h2>
+                                <div class="row container mb-2">
+                                    <img src="produits/rc_fhn_sterilised37_mv_eretailkit_fr_fr_5.jpg" alt="" width="" height="" class="col-lg-6 col-sm-6" />
+                                    <img src="produits/pro_plan_medadl_stveskn_dog_smn_14kg_xe_1000x1000_8.jpg" alt="" width="" height="" class="col-lg-6 col-sm-6"/>
+                                </div>
+                                <div class="row container">
+                                    <img src="produits/620472x24_felix_2.jpg" alt="" width="" height="" class="col-lg-6 col-sm-6"/>
+                                    <img src="produits/seresto_collier_grand_chien_5.jpg" alt="" width="" height="" class="col-lg-6 col-sm-6"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <!--EXPLORATION SPATIALE-->
+                <div class="container bord primary mb-3">
+                    <h2 class="pt-2">Exploration spatiale</h2>
+                        <p class="px-5 pb-2">Iamque lituis cladium concrepantibus internarum non celate ut antea turbidum saeviebat ingenium a veri consideratione detortum et nullo inpositorum vel conpositorum fidem sollemniter inquirente nec discernente a societate noxiorum insontes velut exturbatum e iudiciis fas omne discessit, et causarum legitima silente defensione carnifex rapinarum sequester et obductio capitum et bonorum ubique multatio versabatur per orientales provincias, quas recensere puto nunc oportunum absque Mesopotamia digesta, cum bella Parthica dicerentur, et Aegypto, quam necessario aliud reieci ad tempus </p>
+                         <p class="px-5 pb-2"> En partenariat avec: <a href="https://www.spacex.com/" target="_blank" ><img src="images/Couleur-logo-SpaceX.jpg" width="100px" height="40px" title="spaceX" class="spaceX ms-2"></a></p>
+                </div>
+            </section>
+          </main>
+            <!-- SLIDER-->
+            <section class="container-fluid slider mb-3 py-3 ">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active border">
+                      <div class="container row align-items-center mx-auto">
+                            <img src="produits/1kg_green_puppy1_1000x1000_5_5.jpg" class="d-block col-lg-3 col-sm-6 border" alt="..." width="" height="250">
+                            <p class="col-lg-3 col-sm-6 text-center border"><span class="gras">Pack transition</span>: Little Wolf of Wilderness Green Fields + <span class="gras">Adult, 10% de remise!</span><br>
+                              Junior Green Fields, agneau 5 kg + Adult Blue River, saumon 5 kg <br>
+                              <del>49,98€</del><br>
+                              <span class="gras">44,89€</span></p>
+                            <img src="produits/66381_concept_for_life__sterilised_adult_3_kg_1_7.jpg" class="d-block col-lg-3 col-sm-6 border" alt="..." width="" height="250">
+                            <p class="col-lg-3 col-sm-6 text-center border"> <span class="gras">Pack transition </span>: Croquettes Concept for Life Kitten + Adult, <span class="gras">10 % de remise !</span> <br>
+                              Kitten 3 kg + Sterilised Cats 3 kg <br>
+                             <del>37,98€</del><br>
+                             <span class="gras">34,09€</span></p>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item border">
+                      <div class="container row align-items-center mx-auto">
+                            <img src="produits/1kg_green_puppy1_1000x1000_5_5.jpg" class="d-block col-lg-3 col-sm-6 border" alt="..." width="" height="250">
+                            <p class="col-lg-3 col-sm-6 text-center border">TEXTE 3</p>
+                            <img src="produits/66381_concept_for_life__sterilised_adult_3_kg_1_7.jpg" class="d-block col-lg-3 col-sm-6 border" alt="..." width="" height="250">
+                            <p class="col-lg-3 col-sm-6 text-center border">TEXTE 4</p>
+                      </div>
+                    </div>
+
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </section>
+
+
+        <!-- Pied de page-->
+        <footer class="container-fluid bord">
+            <section class="row text-center success">
+                <div class=" pt-2 pb-4 col-lg-4 col-sm-12 border container">
+                    <h2>Moyens de paiement</h2>
+                        <img class="px-3" src="symbole/visa.png" title="Visa" width="" height=""/>
+                        <img class="px-3" src="symbole/maestro.png" title="Maestro" width="" height=""/>
+                        <img class="px-3" src="symbole/american-express.png" title="American-express" width="" height=""/>
+                        <img class="px-3" src="symbole/paypal.png" title="Paypal" width="" height=""/>
+                </div>
+                <div class=" pt-2 pb-3 col-lg-4 col-sm-12 border container">
+                    <h2>Livraison</h2>
+                    <img class="px-3" src="symbole/livraison-gratuite.png" title="Gratuit" width="" height=""/>
+                    <img class="px-3" src="symbole/livraison-24h-24.png" title="Sous 24h" width="" height=""/>
+                </div>
+                <div class=" pt-2 pb-3 col-lg-4 col-sm-12 border container">
+                    <h2>Remboursement</h2>
+                    <img src="symbole/30-jours.png" title="Sous 30j" width="" height=""/>
+                </div>
+            </section>
+            <section class="py-2 row primary">
+                <div class=" row container-fluid text-center">
+                    <p class="col-lg-2 col-sm-12">Qui sommes-nous</p>
+                    <p class="col-lg-1 col-sm-12">Presse</p>
+                    <p class=" col-lg-1 col-sm-12">Emplois</p>
+                    <p class=" col-lg-2 col-sm-12">Relations investisseurs</p>
+                    <p class=" col-lg-2 col-sm-12">mentions légales</p>
+                    <p class=" col-lg-2 col-sm-12">Conditions générales de Vente</p>
+                    <p class=" col-lg-2 col-sm-12">Formulaire de rétractation</p>
+                </div>
+                <div class=" row container-fluid text-center">
+                    <p class="col-lg-2 col-sm-12">Elimination des déchets</p>
+                    <p class="col-lg-2 col-sm-12">Contact</p>
+                    <p class="col-lg-2 col-sm-12">Frais et délais de livraison</p>
+                    <p class="col-lg-2 col-sm-12">Moyens de paiement</p>
+                    <p class="col-lg-2 col-sm-12">Programme d'affiliation</p>
+                    <p class="col-lg-2 col-sm-12">Confidentialité</p>
+                </div>
+            </section>
+            <p class="fin pt-2">@la nimes'alerie</p>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>

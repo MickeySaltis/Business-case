@@ -1,0 +1,221 @@
+/*****************************************typo*/
+
+
+
+header{
+	color: #ACF840;
+}
+
+.contenu1 .bgbleu{
+	color: #ACF840;
+}
+
+.explospatiale{
+	color: #ACF840;
+}
+
+footer .nav-link{
+	color: #ACF840 !important;
+}
+
+/*****************************************Background & Color*/
+
+.bgcyan{
+	background-color: #1DD3B0;
+}
+
+.bgbleu{
+	background-color: #086375;
+}
+
+.bgvert{
+	background-color: #ACF840;
+}
+
+nav .menu .nav-item{
+	background-color: #B2FF9E;
+	border: 2px solid #B2FF9E;
+}
+
+nav .bgcyan .nav-item{
+	background-color: #B2FF9E;
+	border-radius: 10px;
+	border: 2px solid #B2FF9E;
+}
+
+nav .dropdown-menu{
+	background-color: #b2ff9e;
+    border: 0px;
+} 
+
+.search{
+	background-color: #1DD3B0 !important;
+}
+
+.bgimgcat{
+	background: url(images/cats.jpg) no-repeat center;
+	background-size: cover;
+	height: 300px;
+}
+
+.bgfond{
+	background: url(images/1273-etoiles-WallFizz.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.bgimgproduit{
+	height: 250px;
+	width: 200px;
+	background-color: white;
+}
+
+.img1{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.img2{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.img3{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.img4{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.img5{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.img6{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.bgimgslider1{
+	height: 250px;
+	width: 250px;
+	background-color: white;
+}
+
+.imgslider1{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.imgslider2{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.imgslider3{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.imgslider4{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.imgslider5{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+.imgslider6{
+	background: url(images/fooddog.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.text-start{
+	color: orange;
+}
+
+/*****************************************Border*/
+
+.rounded-4{
+	border-radius: 25px;
+}
+
+.container{
+	max-width: 1750px !important;
+}
+
+.navbar .bgcyan{
+	margin-bottom: -10px;
+}
+
+.contenu1 .bgbleu{
+	height: 50%;
+}
+.contenu1 .bgcyan{
+	height: 50%;
+}
+
+/*****************************************Hover*/
+
+nav .menu .nav-item:hover{
+	background-color: #086375;
+	border: 2px solid #B2FF9E;
+}
+
+nav .menu .nav-link:hover{
+	color: #B2FF9E !important;
+}
+
+nav .bgcyan .nav-item:hover{
+	background-color: #1DD3B0;
+	border: 2px solid #B2FF9E;
+}
+
+footer .nav-link:hover{
+	color: #1DD3B0 !important;
+}
+
+nav .dropdown-item:hover{
+	background-color: #1DD3B0;
+}
+
+/***********************************************************Responsive*/
+
+@media screen and (min-width: 992px){
+	.slider1{
+		display: block;
+	}
+
+	.slider2{
+		display: none;
+	}
+	nav .bgcyan .nav-item{
+		width: 13%;
+	}
+
+	nav .menu .nav-item{
+		width: 15%;
+	}
+
+}
+
+@media screen and (max-width: 1150px){
+	.slider1{
+		display: none;
+	}
+
+	.slider2{
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 991px){
+	.contenu1 .bgvert{
+		margin-top: 24px !important;
+	}
+
+	nav ul .nav-item{
+		width: 70%;
+		margin-top: 5px;
+	} 
+	nav ul{
+		display: flex;
+		align-items: center;
+	}
+}
