@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet" />
+         <!-- BOOTSTRAP CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <!-- BOOTSTRAP JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <title>la Nîmes'alerie</title>
+    </head>
+    <body class="back">
+
+        <header>
+            <!-- en-tête -->
+            <div class="backCat d-flex align-items-center">
+                    <!--image-->
+                <div class="container-fluid text-center ">
+                    <img src="images/Logo.png"alt="" width="150" height="150" class="logo" />
+                    <h1>La Nîmes'alerie</h1>
+                        <p>Le spécialiste qui fait monter votre animal au 7ème ciel.</p>
+                </div>
+            </div>
+                <!--nav 1-->
+                <nav class="navbar navbar-expand-lg navbar-light primary">
+                    <div class="container-fluid">
+                    <form class="d-flex me-3">
+                        <input class="form-control recherche " type="search" placeholder="Rechercher" aria-label="Rechercher">
+                         <button class="btn ms-1 btn-outline-success" type="submit">Rechercher</button>
+                    </form>
+                      <button class="navbar-toggler navcolor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav mx-auto  mx-3 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page" href="#"><img src="symbole/space-travel.png" title="exploration spatiale" width="" height=""/> Exploration spatiale</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link active mx-3" href="#"><img src="symbole/demonstration-en-magasin.png" title="Mon magasin" width="" height=""/> Mon magasin</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active mx-3" href="#"><img src="symbole/utilisateur.png" title="Mon compte" width="" height=""/> Mon compte</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active mx-3" href="#"><img src="symbole/panier.png" title="Mon panier" width="" height=""/> Mon panier</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active mx-3" href="#"><img src="symbole/information.png" title="Aides et services" width="" height=""/> Aides et services</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                <!--nav 2-->
+                <nav class="navbar navbar-expand-lg navbar-light success">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="symbole/animaux-acceptes.png" title="animaux" width="" height=""/><p class="gras black">Nos produits</p>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link me-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="symbole/chien.png" title="chien" width="" height=""/> Chiens
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations & friandises</a></li>
+                              <li><a class="dropdown-item" href="#">Soins & hygiènes</a></li>
+                              <li><a class="dropdown-item" href="#">Jouets</a></li>
+                              <li><a class="dropdown-item" href="#">Couchages</a></li>
+                              <li><a class="dropdown-item" href="#">Transport</a></li>
+                              <li><a class="dropdown-item" href="#">Gamelles</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/chat.png" title="chat" width="" height=""/> Chats
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations & friandises</a></li>
+                              <li><a class="dropdown-item" href="#">Soins & hygiènes</a></li>
+                              <li><a class="dropdown-item" href="#">Jouets</a></li>
+                              <li><a class="dropdown-item" href="#">Couchages</a></li>
+                              <li><a class="dropdown-item" href="#">Transport</a></li>
+                              <li><a class="dropdown-item" href="#">Gamelles</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/poisson-clown.png" title="poisson-clown" width="" height=""/> Poissons
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations</a></li>
+                              <li><a class="dropdown-item" href="#">Aquariums et technologie d'aquarium</a></li>
+                              <li><a class="dropdown-item" href="#">Aménagement & accessoires</a></li>
+                              <li><a class="dropdown-item" href="#">Entretient & hygiènes des aquariums</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/hamster.png" title="hamster" width="" height=""/> Rongeurs & co
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations & friandises</a></li>
+                              <li><a class="dropdown-item" href="#">Entretiens & hygiènes</a></li>
+                              <li><a class="dropdown-item" href="#">Jouets</a></li>
+                              <li><a class="dropdown-item" href="#">Maisonettes</a></li>
+                              <li><a class="dropdown-item" href="#">Transport</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/oiseau.png" title="oiseau" width="" height=""/> Oiseaux
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations & friandises</a></li>
+                              <li><a class="dropdown-item" href="#">Entretiens & hygiènes</a></li>
+                              <li><a class="dropdown-item" href="#">Jouets</a></li>
+                              <li><a class="dropdown-item" href="#">Volières</a></li>
+                              <li><a class="dropdown-item" href="#">Transport</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/serpent.png" title="serpent" width="" height=""/> Reptiles
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Alimentations</a></li>
+                              <li><a class="dropdown-item" href="#">Equipements & entretien</a></li>
+                              <li><a class="dropdown-item" href="#">Terrariums</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link ms-3 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="symbole/jardin.png" title="jardin" width="" height=""/> Jardin & bassin
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">Poules & ferme</a></li>
+                              <li><a class="dropdown-item" href="#">Nourritures pour poissons de bassin</a></li>
+                              <li><a class="dropdown-item" href="#">Entretiens bassins</a></li>
+                              <li><a class="dropdown-item" href="#">Eléments techniques & accessoires pour bassin</a></li>
+                              <li><a class="dropdown-item" href="#">Animaux sauvages</a></li>
+                              <li><a class="dropdown-item" href="#">Oiseaux sauvages</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+                
+        </header>
+
+<div class=" container ">
+    <div class="card my-5 text-center primary success">
+        <h5 class="card-header black success">Se connecter</h5>
+        <div class="card-body primary">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Adresse Mail</label>
+                  <input type="email" class="form-control success" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse Mail">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                  <input type="password" class="form-control success" id="exampleInputPassword1" placeholder="Mot de Passe">
+                </div>
+                <button type="submit" class="btn btn-outline-success">Connexion</button>
+              </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pied de page-->
+<footer class="container-fluid bord">
+    <section class="row text-center success">
+        <div class=" pt-2 pb-4 col-lg-4 col-sm-12 border container">
+            <h2>Moyens de paiement</h2>
+                <img class="px-3" src="symbole/visa.png" title="Visa" width="" height=""/>
+                <img class="px-3" src="symbole/maestro.png" title="Maestro" width="" height=""/>
+                <img class="px-3" src="symbole/american-express.png" title="American-express" width="" height=""/>
+                <img class="px-3" src="symbole/paypal.png" title="Paypal" width="" height=""/>
+        </div>
+        <div class=" pt-2 pb-3 col-lg-4 col-sm-12 border container">
+            <h2>Livraison</h2>
+            <img class="px-3" src="symbole/livraison-gratuite.png" title="Gratuit" width="" height=""/>
+            <img class="px-3" src="symbole/livraison-24h-24.png" title="Sous 24h" width="" height=""/>
+        </div>
+        <div class=" pt-2 pb-3 col-lg-4 col-sm-12 border container">
+            <h2>Remboursement</h2>
+            <img src="symbole/30-jours.png" title="Sous 30j" width="" height=""/>
+        </div>
+    </section>
+    <section class="py-2 row primary lien">
+        <div class=" row container-fluid text-center">
+            <p class="col-lg-2 col-sm-12"> <a href="footer/quiSommesNous.html">Qui sommes-nous</a></p>
+            <p class="col-lg-2 col-sm-12"><a href="footer/presse.html">Presse</a></p>
+            <p class=" col-lg-2 col-sm-12"><a href="footer/emplois.html">Emplois</a></p>
+            <p class=" col-lg-2 col-sm-12"><a href="footer/mentionsLegales.html">mentions légales</a></p>
+            <p class=" col-lg-2 col-sm-12"><a href="footer/cgv.html">Conditions générales de Vente</a></p>
+            <p class=" col-lg-2 col-sm-12"><a href="footer/retractation.html">Formulaire de rétractation</a></p>
+        </div>
+        <div class=" row container-fluid text-center">
+            <p class="col-lg-2 col-sm-12"><a href="footer/dechets.html">Elimination des déchets</a></p>
+            <p class="col-lg-2 col-sm-12"><a href="footer/contact.html">Contact</a></p>
+            <p class="col-lg-2 col-sm-12"><a href="footer/livraison.html">Frais et délais de livraison</a></p>
+            <p class="col-lg-2 col-sm-12"><a href="footer/moyenPaiement.html">Moyens de paiement</a></p>
+            <p class="col-lg-2 col-sm-12"><a href="footer/affiliation.html">Programme d'affiliation</a></p>
+            <p class="col-lg-2 col-sm-12"><a href="footer/confidentialite.html">Confidentialité</a></p>
+        </div>
+    </section>
+    <p class="fin pt-2">@la nimes'alerie</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

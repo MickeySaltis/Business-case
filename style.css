@@ -6,13 +6,15 @@
 }
 .success
 {
-	background-color: #1DD3B0;
+	background-color: #1DD3B0 !important;
 }
 .warning
 {
 	background-color: #AFFC41;
 }
-
+.description{
+	background-color: #B2FF9E;
+}
 
 /********  FOND */
 
@@ -32,6 +34,10 @@
 
 /******** Ecriture */
 .btn-outline-success
+{
+	color: #AFFC41 !important;
+}
+.btn-outline-primary
 {
 	color: #AFFC41 !important;
 }
